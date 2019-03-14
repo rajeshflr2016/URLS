@@ -1,0 +1,56 @@
+/**
+** Github local config and files Commands
+**
+** https://www.atlassian.com/git/tutorials/setting-up-a-repository
+/
+
+// Install git 
+brew install git
+
+// check version respective folder
+git --version
+
+//Intially git framework files 
+git init
+
+// Clone current url
+
+git clone my git URL
+
+cd /path/to/project 
+echo "test content for git tutorial" >> CommitTest.txt 
+git add CommitTest.txt 
+git commit -m "added CommitTest.txt to the repo"
+
+git remote add <remote_name> <remote_repo_url>
+
+git push -u <remote_name> <local_branch_name>
+
+
+git remote add origin https://github.com/rajeshflr2016/sqlite.git
+
+git pull origin master
+
+git push -u origin master
+
+username and password
+
+$ git remote -v
+
+git commit -a
+
+:wq
+
+git log --author=rajesh
+
+git push
+
+git push --set-upstream origin master
+
+So need comman orgin to changes then 
+
+git fetch
+
+
+
+https://www.atlassian.com/git/tutorials/svn-to-git-prepping-your-team-migration
